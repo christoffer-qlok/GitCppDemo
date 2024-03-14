@@ -16,7 +16,7 @@ unsigned long long factorial(int n) {
 int main() {
     int num;
 
-    cout << "Enter a non-negative integer: ";
+    cout << "Enter a integer 0 or larger: ";
     cin >> num;
 
     // Check for negative input (factorials are not defined for negative numbers)
