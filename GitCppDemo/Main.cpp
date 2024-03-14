@@ -16,12 +16,12 @@ unsigned long long factorial(int n) {
 int main() {
     int num;
 
-    cout << "Enter a integer 0 or larger: ";
+    cout << "Enter a integer that is not negative: ";
     cin >> num;
 
     // Check for negative input (factorials are not defined for negative numbers)
     if (num < 0) {
-        cout << "Error: Factorial is not defined for negative numbers." << endl;
+        cout << "Error: Factorial is not defined for negative numbers. :(" << endl;
     }
     else {
         unsigned long long result = factorial(num);
