@@ -19,9 +19,9 @@ int main() {
     cout << "Enter a integer that is not negative: ";
     cin >> num;
 
-    // Check for negative input (factorials are not defined for negative numbers)
+    // Check for negative input (factorials are not mathematically defined for negative numbers)
     if (num < 0) {
-        cout << "Error: Factorial is not defined for negative numbers. :(" << endl;
+        cout << "Error: Factorial is not defined for numbers under 0." << endl;
     }
     else {
         unsigned long long result = factorial(num);
